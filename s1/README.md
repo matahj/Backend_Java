@@ -26,7 +26,7 @@ Para poder generar el .jar se agrega lo siguiente al pom.xml
     </build>
 ~~~
 
-Para crear el jar con Maven:
+Para crear el jar con Maven y ejecutarlo:
 
 ~~~
 mvn clean
@@ -50,4 +50,9 @@ git clone https://github.com/matahj/SetUp_Project_Maven_IntelliJ.git
 ~~~
 
 Después se abre con IntelliJ, se ejecuta o se obtiene el jar como se indicó previamente.
+
+
+Repositorio del proyecto de ejemplo:
+
+[https://github.com/matahj/SetUp_Project_Maven_IntelliJ](https://github.com/matahj/SetUp_Project_Maven_IntelliJ)
 
