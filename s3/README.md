@@ -50,6 +50,9 @@ Anotaciones utilizadas:
 @PathVariable long id
 @PostMapping("/crearCurso")
 @RequestBody CrearCurso data
+@PutMapping
+@RequestBody Curso data
+@DeleteMapping("borrarCurso/{id}")
 ~~~
 
 
