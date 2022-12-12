@@ -41,4 +41,29 @@ public class CursoController {
         cursos.add(nuevo);
         return nuevo;
     }
+
+    @PutMapping("/actualizarCurso")
+    public Curso actualizarCurso(@RequestBody Curso data){
+        for (Curso c : cursos) {
+            if( c.getId() == (long)data.getId() ){
+                c.setName(data.getName());
+                return c;
+            }
+        }
+        return null;
+    }
+
+    @DeleteMapping("borrarCurso/{id}")
+    public Curso borrarCurso(@PathVariable long id){
+        int count = 0;
+        for (Curso c : cursos) {
+            if( c.getId() == id ){
+                Curso cursoRet = new Curso(c.getId(),c.getName());
+                cursos.remove(count);
+                return cursoRet;
+            }
+            count++;
+        }
+        return null;
+    }
 }
