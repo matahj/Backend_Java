@@ -55,3 +55,5 @@ Después se abre con IntelliJ, se ejecuta o se obtiene el jar como se indicó pr
 Repositorio del proyecto de ejemplo:
 
 [https://github.com/matahj/SetUp_Project_Maven_IntelliJ](https://github.com/matahj/SetUp_Project_Maven_IntelliJ)
+
+
